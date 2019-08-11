@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# IDEA specific things
+*.iml
+.idea
+
+# Build artifacts
+build/
