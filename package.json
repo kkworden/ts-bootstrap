@@ -1,0 +1,22 @@
+{
+  "name": "ts-bootstrap",
+  "version": "1.0.0",
+  "description": "Node project ready for TypeScript.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run build; nodemon",
+    "build": "rm -rf build; npx tsc",
+    "start": "node build/index.js"
+  },
+  "author": "Kenneth Worden <kenny.worden@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.3"
+  }
+}
